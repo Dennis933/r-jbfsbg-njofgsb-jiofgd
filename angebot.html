@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angebot</title>
+    <link rel="stylesheet" href="angebot.css">
+</head>
+<body>
+    <div class="nav">
+        <input type="checkbox" id="nav-check">
+        <div class="nav-header">
+        </div>
+        <div class="nav-btn">
+          <label for="nav-check">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </div>
+        <div class="nav-links">
+          <a href="index.html">Startseite</a>
+          <a href="angebot.html">Unser Angebot</a>
+          <a href="bestellen.html">Bestellen</a>
+          <a href="anfahrt.html">Kontakt und Anfahrt</a>
+        </div>
+      </div>
+    <h1>Unser Angebot</h1>
+
+      <div class="angebot">
+        <p>
+          <center><p style="font-size: 150%;">Willkommen in unserer Eisdiele!</p></center>
+          <br>
+          Wir freuen uns, Sie in unserem kleinen Paradies für Eisliebhaber begrüßen zu dürfen! Bei uns dreht
+           sich alles um die Freude an köstlichem Eis und die unvergesslichen Momente, die es mit sich bringt.
+            Unsere Eisdiele ist der perfekte Ort, um sich an warmen Tagen zu erfrischen, mit Freunden und Familie
+             Zeit zu verbringen oder einfach nur eine süße Auszeit zu genießen.
+          <br>
+          Unsere Eisauswahl
+          
+          In unserer Eisdiele bieten wir eine breite Palette an Eissorten, die aus hochwertigen, frischen 
+          Zutaten hergestellt werden. Von klassischen Geschmäckern wie Vanille, Schokolade und Erdbeere bis
+           hin zu aufregenden Kreationen wie Pistazie, Dabai und unserem beliebten Cookies-Eis 
+           – bei uns ist für jeden Geschmack etwas dabei! 
+           <br>
+          <center><p style="font-size: 150%;">Speisekarte</p></center>
+          <br>
+          Um Ihnen die Auswahl zu erleichtern, haben wir unsere Speisekarte für Sie bereitgestellt. Sie finden die 
+          Speisekarte unten als Bilder, die Sie durchblättern können. Jedes Bild zeigt unsere köstlichen Eissorten und
+           die verschiedenen Toppings, die Sie wählen können, um Ihr Eis zu verfeinern. Sie steht aber auch auf jedem Tisch lesbar und bereit.
+          Zusätzlich haben Sie die Möglichkeit, die gesamte Speisekarte als <a href="#">PDF herunterzuladen</a> und anzuschauen. Wenn Sie es
+            bevorzugen, können Sie die Speisekarte auch auf <a href="#">Google Drive</a> einsehen. Dort haben Sie die Möglichkeit, die
+             Speisekarte jederzeit und überall zu betrachten.
+             Egal für was sie sich erntscheiden, können sie <a href="bestellen.html">Online bestellen</a> oder bei unseren Kellnern bestellen.
+          <br>
+      </div>
+      
+      <div class="h2">
+        <h2>Unsere Speisekarte</h2>
+      </div>
+
+    <div class="gallery" onclick="openLightbox(event)">
+        <img src="Images/IMG_7907.jpeg"
+            alt="Image 1">
+        <img src="Images/IMG_7908.jpeg"
+            alt="Image 2">
+        <img src="Images/IMG_7909.jpeg"
+            alt="Image 3">
+        <img src="Images/IMG_7910.jpeg"
+            alt="Image 4">
+        <img src="Images/IMG_7911.jpeg"
+          alt="Image 1">
+        <img src="Images/IMG_7912.jpeg"
+          alt="Image 2">
+        <img src="Images/IMG_7913.jpeg"
+          alt="Image 3">
+        <img src="Images/IMG_7914.jpeg"
+          alt="Image 4">
+        <img src="Images/IMG_7915.jpeg"
+        alt="Image 1">
+        <img src="Images/IMG_7916.jpeg"
+        alt="Image 2">
+        <img src="Images/IMG_7917.jpeg"
+        alt="Image 3">
+        <img src="Images/IMG_7918.jpeg"
+        alt="Image 4">
+        <img src="Images/IMG_7919.jpeg"
+        alt="Image 1">
+        <img src="Images/IMG_7920.jpeg"
+        alt="Image 2">
+        <img src="Images/IMG_7921.jpeg"
+        alt="Image 3">
+        <img src="Images/IMG_7922.jpeg"
+        alt="Image 4">
+        <img src="Images/IMG_7923.jpeg"
+        alt="Image 5">
+    </div>
+    <div id="lightbox">
+        <span id="close-btn" onclick="closeLightbox()">&times;</span>
+        <img id="lightbox-img" src="" alt="lightbox image">
+        <div id="thumbnail-container">
+        </div>
+        <button id="prev-btn" onclick="changeImage(-1)">&lt; Prev</button>
+        <button id="next-btn" onclick="changeImage(1)">Next &gt;</button>
+    </div>
+      </div>
+
+      <script src="angebot.js"></script>
+</body>
+</html>
